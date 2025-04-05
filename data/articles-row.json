@@ -1,0 +1,48 @@
+[
+    {
+        "id": 2,
+        "title": "Title of the article",
+        "text": "The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.",
+        "time": "May 20th 2020",
+        "further": "Read more"
+    },
+
+    {
+        "id": 3,
+        "title": "Title of the article",
+        "text": "The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.",
+        "time": "May 20th 2020",
+        "further": "Read more"
+    },
+
+    {
+        "id": 4,
+        "title": "Title of the article",
+        "text": "The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.",
+        "time": "May 20th 2020",
+        "further": "Read more"
+    },
+    {
+        "id": 2,
+        "title": "Title of the article",
+        "text": "The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.",
+        "time": "May 20th 2020",
+        "further": "Read more"
+    },
+
+    {
+        "id": 3,
+        "title": "Title of the article",
+        "text": "The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.",
+        "time": "May 20th 2020",
+        "further": "Read more"
+    },
+
+    {
+        "id": 4,
+        "title": "Title of the article",
+        "text": "The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.",
+        "time": "May 20th 2020",
+        "further": "Read more"
+    }
+]
