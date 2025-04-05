@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RusNews</title>
+
+    <link rel="stylesheet" href="http://localhost/RusNews/css/layout.css">
+    <link rel="stylesheet" href="http://localhost/RusNews/css/articles.css">
+    <link rel="stylesheet" href="http://localhost/RusNews/css/media.css">
+
+    <script src="http://localhost/RusNews/js/articles.js" type="module" defer></script>
+
+    <script src="http://localhost/RusNews/data/articles-row.json"></script>
+
+</head>
+
+
+
+
+<body>
+
+
+
+    <!-- Header -->
+
+    <header class="header"> 
+
+        <div class="container">
+
+
+
+            <!-- Header nav -->
+
+            <div class="header-nav">
+
+                <a href="#!" class="logo">RusNews</a>
+
+                <nav id="nav" class="nav">
+
+                    <ul class="nav-list">
+
+                        <li>
+                            <form class="input-search">
+                                <button type="submit"><img src="http://localhost/RusNews/img/icons/loupe-icon.svg" alt="Loupe icon"></button>
+                                <input type="search" placeholder="Search...">
+                            </form>
+                        </li>                
+
+                        <li class="nav-item"><a href="http://localhost/RusNews/main.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="http://localhost/RusNews/articles.html" class="nav-link">Articles</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link"><img src="http://localhost/RusNews/img/icons/vk-icon.svg" alt="Vk icon"></a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link"><img src="http://localhost/RusNews/img/icons/telegram-icon.svg" alt="Telegram icon"></a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link"><img src="http://localhost/RusNews/img/icons/whatsapp-icon.svg" alt="Whatsapp icon"></a></li>
+
+                        <li class="nav-item">
+
+                            <label class="switch" >
+                                <span><i class="dark"></i></span>
+                                <span><i class="light"></i></span>
+                                <input type="checkbox" id="toggle">
+                                <span class="move"></span>
+                            </label>
+
+                        </li>
+
+                    </ul>
+
+                    <button id="nav-button" class="nav-button">
+                        <img id="nav-button-image" src="http://localhost/RusNews/img/icons/nav-open.svg" alt="Navigation button">
+                    </button>
+                
+                </nav>
+
+            </div>
+            
+        </div>
+        
+    </header>
+
+
+
+
+    <!-- Section - Set article -->
+
+    <section class="set-articles">
+   
+        <hr class="hr-line">
+
+        <div class="container">
+
+            <ul class="set-articles-row"></ul>
+
+            <label class="btn-see-more hidden">
+                <button type="button-see-more">See more<img src="http://localhost/RusNews/img/icons/see-more-icon.svg" alt="See more button"></button>
+            </label>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer-contacts">
+
+        <hr class="hr-line">
+
+        <div class="container">
+
+            <div class="contacts">
+
+                <div class="contacts-title">
+                    <h5><b>RusNews</b> 2024 copyright all rights reserved</h5>
+                </div>
+
+                <ul class="contacts-list">
+                    <li class="contacts-item"><a href="#!" class="contacts-link"><img src="http://localhost/RusNews/img/icons/vk-icon.svg" alt="Vk icon"></a></li>
+                    <li class="contacts-item"><a href="#!" class="contacts-link"><img src="http://localhost/RusNews/img/icons/telegram-icon.svg" alt="Telegram icon"></a></li>
+                    <li class="contacts-item"><a href="#!" class="contacts-link"><img src="http://localhost/RusNews/img/icons/whatsapp-icon.svg" alt="Whatsapp icon"></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RusNews</title>
+
+    <link rel="stylesheet" href="http://localhost/RusNews/css/layout.css">
+    <link rel="stylesheet" href="http://localhost/RusNews/css/main.css">
+    <link rel="stylesheet" href="http://localhost/RusNews/css/media.css">
+
+    <script src="http://localhost/RusNews/js/main.js" type="module" defer></script>
+
+    <script src="http://localhost/RusNews/data/articles-row.json"></script>
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+    <!-- Header -->
+
+    <header class="header"> 
+
+        <div class="container">
+
+
+
+            <!-- Header nav -->
+
+            <div class="header-nav">
+
+                <a href="#!" class="logo">RusNews</a>
+
+                <nav id="nav" class="nav">
+
+                    <ul class="nav-list">
+
+                        <li>
+                            <form class="input-search">
+                                <button type="submit"><img src="http://localhost/RusNews/img/icons/loupe-icon.svg" alt="Loupe icon"></button>
+                                <input type="search" class="inputSearch" placeholder="Search...">
+                            </form>
+                        </li>                
+
+                        <li class="nav-item"><a href="http://localhost/RusNews/main.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="http://localhost/RusNews/articles.html" class="nav-link">Articles</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link"><img src="http://localhost/RusNews/img/icons/vk-icon.svg" alt="Vk icon"></a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link"><img src="http://localhost/RusNews/img/icons/telegram-icon.svg" alt="Telegram icon"></a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link"><img src="http://localhost/RusNews/img/icons/whatsapp-icon.svg" alt="Whatsapp icon"></a></li>
+
+                        <li class="nav-item">
+
+                            <label class="switch" >
+                                <span><i class="dark"></i></span>
+                                <span><i class="light"></i></span>
+                                <input type="checkbox" id="toggle">
+                                <span class="move"></span>
+                            </label>
+
+                        </li>
+
+                    </ul>
+
+                    <button id="nav-button" class="nav-button">
+                        <img id="nav-button-image" src="http://localhost/RusNews/img/icons/nav-open.svg" alt="Navigation button">
+                    </button>
+                
+                </nav>
+
+            </div>
+            
+        </div>
+
+        <hr class="hr-line">
+
+        <div class="search-articles">
+
+        </div>
+
+
+
+        <!-- Header content -->
+
+        <div class="container">
+
+            <div class="header-row">
+                  
+                <div class="header-content">
+                    <h1 class="header-heading">Post better news<img src="http://localhost/RusNews/img/icons/logo-icon.svg" alt="Logo icon"></h1>
+                    <p>What is new today?</p>
+                </div>
+  
+                <div class="header-img">
+                    <img src="http://localhost/RusNews/img/header/main-header.png" alt="Map and flag of Russia">
+                </div>
+  
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- Section - Home Article -->
+
+    <section class="home-articles">
+
+        <hr class="hr-line">
+
+        <div class="container">
+
+            <div class="home-article-block">
+
+                <div class="home-article-row">
+
+                    <div class="home-article-img">
+                        <img src="http://localhost/RusNews/img/articles/article-1.png" alt="Airplane">
+                    </div>
+
+                    <div class="home-article-content">
+
+                        <h3 class="home-article-heading">Title of the article</h3>
+                        <p>The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here.</p>
+
+                        <ul class="home-article-list">
+                            <li class="article-time">May 20th 2020</li>
+                            <li class="article-further"><a href="http://localhost/RusNews/article.html?id=1" class="article-further-link">Read more</a></li>
+                        </ul>
+        
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Section - Main article -->
+
+    <section class="main-articles">
+
+        <div class="container">
+
+            <div class="main-article-block">
+
+                <div class="main-article-row">
+
+                    <div class="main-article-content">
+
+                        <h3 class="main-article-heading">Title of the article</h3>
+                        <p>The short text of the article, which should be published here. The short text of the article, which should be published here. The short text of the article, which should be published here. </p>
+                            
+                        <ul class="main-article-list">
+                            <li class="article-time">May 20th 2020</li>
+                            <li class="article-further"><a href="http://localhost/RusNews/article.html?id=2" class="article-further-link">Read more</a></li>
+                        </ul>
+        
+                    </div>
+
+                    <div class="main-article-img">
+                        <img src="http://localhost/RusNews/img/articles/article-2.png" alt="Code on the computer">
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Section - Set article -->
+
+    <section class="set-articles">
+
+        <div class="container">
+
+            <ul class="set-articles-row"></ul>
+
+            <label class="btn-see-more hidden">
+                <button type="button-see-more">See more<img src="http://localhost/RusNews/img/icons/see-more-icon.svg" alt="See more button"></button>
+            </label>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer-contacts">
+
+        <hr class="hr-line">
+
+        <div class="container">
+
+            <div class="contacts">
+
+                <div class="contacts-title">
+                    <h5><b>RusNews</b> 2024 copyright all rights reserved</h5>
+                </div>
+
+                <ul class="contacts-list">
+                    <li class="contacts-item"><a href="#!" class="contacts-link"><img src="http://localhost/RusNews/img/icons/vk-icon.svg" alt="Vk icon"></a></li>
+                    <li class="contacts-item"><a href="#!" class="contacts-link"><img src="http://localhost/RusNews/img/icons/telegram-icon.svg" alt="Telegram icon"></a></li>
+                    <li class="contacts-item"><a href="#!" class="contacts-link"><img src="http://localhost/RusNews/img/icons/whatsapp-icon.svg" alt="Whatsapp icon"></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+
+
+
+
+</html>
