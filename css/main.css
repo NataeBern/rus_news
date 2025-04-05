@@ -1,0 +1,266 @@
+@import 'http://localhost/RusNews/css/reset.css';
+@import '@fontsource-variable/inter';
+
+
+
+
+
+/* Blocks for light and dark theme */
+
+:root {
+    --background-color: #FEFEFE;
+    --background-search-color: #FEFEFE;
+    --background-article-color: #f1f1f1;
+    --box-shadow: 0 5px 2px -2px #ededed;
+    --border: 1px solid #bdbdbd;
+    --border-top: 2px solid #ededed;
+    --text-color: #4A4A4A;
+    --search-color: #000000;
+    --header-p-color: #6F6F6F;
+    --article-color: #313131;
+    --article-p-color: #3a3a3a;
+    --filter: none;
+}
+
+@media (prefers-color-scheme: dark-theme) {
+    :root {
+      --background-color: #090909;
+      --background-search-color: #151515;
+      --background-article-color: #151515;
+      --box-shadow: 0 5px 2px -2px #343434;
+      --border: 1px solid #464646;
+      --border-top: 2px solid #1a1a1a;
+      --text-color: #ffffff;
+      --search-color: #FFFFFF;
+      --header-p-color: #7C7C7C;
+      --article-color: #e2e2e2;
+      --article-p-color: #cdcdcd;
+      --filter: invert(100%);
+    }
+}
+
+
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+    margin: 50px 0 90px 0;
+}
+
+.header-content {
+    margin: 50px 50px 0 60px;
+}
+
+.header-heading {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 7px
+}
+
+.header-heading img {
+    position: relative;
+    left: 10px;
+    bottom: 4px;
+    width: 65px;
+    height: 65px;
+    filter: var(--filter);
+}
+
+.header-content p {
+    font-size: 30px;
+    color: var(--header-p-color);
+    margin-bottom: 7px;
+}
+
+.header-img {
+    position: relative;
+    overflow: hidden;
+    max-width: 545px;
+    max-height: 323px;
+    margin: 20px 120px 0 0;
+}
+
+
+
+/* Section - Home article */
+
+.home-article-block {
+    background-color: var(--background-article-color);
+    margin-top: 80px;
+}
+
+.home-article-row {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.home-article-content {
+    position: relative;
+    padding: 100px 80px 60px 80px;
+    max-width: 527px;
+}
+
+.home-article-heading {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--article-color);
+}
+
+.home-article-content p{
+    padding-top: 20px;
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: var(--article-p-color);
+}
+
+.home-article-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 3px 0;
+}
+
+.home-article-img {
+    display: block;
+    overflow: hidden;
+    max-width: 524px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+
+
+/* Section - Main article */
+
+.main-articles {
+    padding-top: 80px;
+}
+
+.main-article-block {
+    border: var(--border);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--background-article-color);
+}
+
+.main-article-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-article-content {
+    position: relative;
+    max-width: 532px;
+    margin: 40px;
+}
+
+.main-article-heading {
+    font-weight: 700;
+    font-size: 31px;
+    margin-bottom: 7px;
+    color: var(--article-color);
+}
+
+.main-article-content p{
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: var(--article-p-color);
+}
+
+.main-article-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 0 3px 0;
+}
+
+.main-article-img {
+    display: block;
+    max-width: 434px;
+    max-height: 243px;
+}
+
+
+
+/* Section - Set article */
+
+.set-articles-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 75px;
+}
+
+.set-article-block {
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 382px;
+    border: var(--border);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--background-article-color);
+    flex: 1 1 0;
+    margin-top: 80px;
+}
+
+.set-article-img {
+    display: block;
+    position: relative;
+    max-width: 297px;
+    max-height: 179px;
+    margin: 0 auto;
+}
+
+.set-article-content {
+    position: relative;
+    padding: 20px 20px 20px 20px;
+}
+
+.set-article-heading {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 5px;
+    color: var(--article-color)
+}
+
+.set-article-content p {
+    text-align:justify;
+    word-break: break-all;
+    margin-bottom: 3px;
+    color: var(--article-p-color)
+}
+
+.set-article-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 20px 0 3px 0;
+}
+
+
+
+/* Button - See more */
+
+.btn-see-more {    
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0px 0 0 0;
+}
+
+button[type="button-see-more"] {
+    padding: 0.5rem 0.75rem;
+    color: #ffffff;
+    background-color: #6B46C1;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+button[type="button-see-more"] img {
+    position: relative;
+    margin-left: 10px;
+}
